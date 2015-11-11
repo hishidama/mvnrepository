@@ -29,6 +29,12 @@
       <artifactId>poi-ooxml</artifactId>
       <version>3.13</version>
       <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>stax-api</artifactId>
+          <groupId>stax</groupId>
+        </exclusion>
+      </exclusions>
     </dependency>
   </dependencies>
 </project>
